@@ -22,6 +22,13 @@ npm run build
 npm run preview
 ```
 
+## Deploy (Render)
+
+Build command: `npm install && npm run build`  
+Start command: `npm start`  
+
+The included `server.js` binds to `0.0.0.0:$PORT` and serves the built `dist/` folder.
+
 ## Stack
 
 - React 19 + TypeScript
